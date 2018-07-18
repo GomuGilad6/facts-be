@@ -1,3 +1,5 @@
+#require_relative '../app/models/fact.rb'
+
 class FactsService
   def generate_facts(amount)
     Array.new(amount) { generate_single_random_fact }

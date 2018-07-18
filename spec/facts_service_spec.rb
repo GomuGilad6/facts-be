@@ -1,8 +1,11 @@
-require 'rspec'
+require 'rails_helper'
 
-describe 'FactsService' do
+RSpec.describe 'FactsService' do
+  describe '#generate_facts' do
+    it 'returns facts according to the amount' do
+      result = FactsService.new.generate_facts(3)
 
-  it 'should do something' do
-    expect(1).to eq(1)
+      expect(result.count).to eq(3)
+    end
   end
 end
