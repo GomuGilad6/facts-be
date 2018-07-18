@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Fact
   attr_reader :fact
   attr_reader :type

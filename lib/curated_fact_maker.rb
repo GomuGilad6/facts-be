@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-class BaseFactMaker
+class CuratedFactMaker < BaseFactMaker
   def make
-    raise NotImplementedError
+    fact.new
   end
 end

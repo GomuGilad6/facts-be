@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class FactsController < ApplicationController
   def index
-    # TODO IMPLEMENT
+    # TODO: IMPLEMENT
     # Possibly use ActiveSerializer
     # Returns
     # {
