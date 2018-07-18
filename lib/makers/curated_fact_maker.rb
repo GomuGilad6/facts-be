@@ -3,6 +3,7 @@
 class CuratedFactMaker < BaseFactMaker
 
   def make
-    CuratedFact.fetch_random(1)
+    curated_fact = CuratedFact.fetch_random(1).first
+    Fact.new(fact: curated_fact.fact_desc, type: 'curated')
   end
 end
