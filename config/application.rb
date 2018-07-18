@@ -35,5 +35,6 @@ module FactsBe
     config.api_only = true
 
     config.autoload_paths << Rails.root.join('lib')
+    config.autoload_paths << Rails.root.join('lib', 'makers')
   end
 end
