@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'FactsService' do
+RSpec.describe FactsService do
   describe '#generate_facts' do
     it 'returns facts according to the amount' do
       result = FactsService.new.generate_facts(3)
