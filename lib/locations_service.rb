@@ -18,7 +18,6 @@ class LocationsService
   def self.client
     @@client ||= Faraday.new do |faraday|
       faraday.request  :url_encoded
-      #faraday.use Faraday::Request::NoAu, faraday.headers['Content-Type'] = 'application/json'
       faraday.adapter Faraday.default_adapter
     end
 
