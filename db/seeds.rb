@@ -14,6 +14,6 @@ CuratedFact.create(fact_desc: 'Over 16 million square feet space WeWork Lease Gl
 CuratedFact.create(fact_desc: 'WeWork Tower 49 in New York City has nearly 4,500 members')
 CuratedFact.create(fact_desc: 'Adam Neumann has 5 kids')
 CuratedFact.create(fact_desc: 'WeWork TLV is the best')
-CuratedFact.create(fact_desc: 'No More Meat')
+CuratedFact.create(fact_desc: 'WeWork Goes Vegetarian')
 CuratedFact.create(fact_desc: 'Miguel began his entrepreneurial career by co-founding the company - English, Baby!')
-
+CuratedFact.create(fact_desc: 'Aviv Geffen chooses the songs we hear')

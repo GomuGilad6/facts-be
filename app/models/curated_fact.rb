@@ -10,6 +10,6 @@
 
 class CuratedFact < ActiveRecord::Base
   def self.fetch_random(amount)
-    limit(amount).order('RANDOM()')
+    order('RANDOM()').limit(amount)
   end
 end
