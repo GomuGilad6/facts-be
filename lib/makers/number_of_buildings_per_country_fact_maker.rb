@@ -7,6 +7,6 @@ class NumberOfBuildingsPerCountryFactMaker
     num_of_buildings = countries[index][:markets][0][:buildings].size
     country_name = countries[index][:name]
     fact = "There are #{num_of_buildings} buildings in #{country_name}"
-    Fact.new(fact: fact, type: 'Fact')
+    Fact.new(fact: fact, type: 'FACT')
   end
 end
