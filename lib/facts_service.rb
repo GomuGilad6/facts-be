@@ -8,6 +8,6 @@ class FactsService
     facts << CuratedFactMaker.new.make
     facts << NumberOfBuildingsPerCountryFactMaker.new.make
     facts << CheapestDeskFactMaker.new.make
-    facts.shuffle
+    facts.sample(3)
   end
 end
