@@ -11,6 +11,6 @@ class CheapestDeskFactMaker < BaseFactMaker
     fact_text = "At #{building_name}, you can get a desk for as cheap as #{min_desk_price} !"
     image_url = building['images'].map { |m| "http#{m['url']}" }.sample
 
-    Fact.new(fact: fact_text, type: 'FACT', image: image_url)
+    Fact.new(fact: fact_text, type: FACT, image: image_url)
   end
 end
