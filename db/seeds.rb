@@ -8,7 +8,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-CuratedFact.create(fact_desc: 'There are 1,183 work seats in ChelseaHQ and 43% of the space is dedicated to desks and offices')
+CuratedFact.create(fact_desc: 'There are 1,183 work seats in ChelseaHQ')
 CuratedFact.create(fact_desc: 'WeWork was founded in 2010 in New York City')
 CuratedFact.create(fact_desc: 'Over 16 million square feet space WeWork Lease Globally')
 CuratedFact.create(fact_desc: 'WeWork Tower 49 in New York City has nearly 4,500 members')
